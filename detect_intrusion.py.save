@@ -1,0 +1,22 @@
+import pandas as pd
+import joblib
+import datetime
+
+# Load trained model
+model = joblib.load("ids_model.pkl")
+scaler = joblib.load("scaler.pkl")
+
+# Load new / live traffic data
+
+# Predict
+predictions = model.predict(data_scaled)
+
+# Alert system
+for i, p in enumerate(predictions):
+    if p == 1:
+        alert = f"[{datetime.datetime.now()}] ⚠️ Intrusion detected at record {i}\n"
+        print(alert)
+        with open("alerts.log", "a") as f:
+            f.write(alert)
+
+print("Detection completed.")
