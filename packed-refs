@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled sorted 
+e9a85f1ef8afa78d5ab3795ecec9167f1845e7e6 refs/remotes/origin/capstone
+61ca5ab945e6043b9b6f20c0b4b5b7828b5ce8f8 refs/remotes/origin/master
+1fed19701b02bcbcec8948bb569307e8bce95b31 refs/tags/v0.1.0
+aecade52073868a8055f2417fb6fee299b377ebb refs/tags/v0.1.1
+df180c1dede07c682973427769ef887bcba602b0 refs/tags/v0.1.2
+df180c1dede07c682973427769ef887bcba602b0 refs/tags/v0.1.3
+9c6b74c3380bdd6ba45deb5a9fef987314e65f1e refs/tags/v0.1.4
+51936f6319598c26d0d07154cf628cad9b0c6d55 refs/tags/v0.1.5
+eea74870a0d3afb8df107ff76ddb37de56d0ac34 refs/tags/v0.2.0
+^defe698629c0bc31f78e731552b2ef0554ef3b4b
+b262e60d06dec58cd8c87857f198841def596649 refs/tags/v0.3.0
+ed86114fa325a87f975c3f09eeb08f57d4650c87 refs/tags/v0.4.0
+1a2a01ff421987c06df0acd2ad97631d8f1b4688 refs/tags/v0.4.1
+6477622683f76e724e364f8cb09be84192b0fc9d refs/tags/v0.4.2
+^c1c1587ab0e898465aeaad3dabc205c4ab083d1c
